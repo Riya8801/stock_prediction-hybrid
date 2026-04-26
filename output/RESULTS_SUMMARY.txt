@@ -1,0 +1,32 @@
+================================================================================
+STOCK PREDICTION HYBRID SYSTEM - RESULTS SUMMARY
+================================================================================
+
+Generated: 2026-04-27 00:23:00
+
+DATA OVERVIEW
+--------------------------------------------------------------------------------
+Total Records: 59071
+Columns: ['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', 'Company']
+
+MODEL METRICS
+--------------------------------------------------------------------------------
+  Metric        TCN     Hybrid  Improvement
+0   RMSE  84.559449  72.259264    14.546198
+1    MAE  66.066460  60.038139     9.124631
+2     R²  -3.831635  -2.528230   -34.016938
+3   MAPE   9.071637   8.128808    10.393153
+
+PREDICTION SUMMARY
+--------------------------------------------------------------------------------
+Total Predictions: 226
+Columns: ['Actual_Price', 'TCN_Prediction', 'Hybrid_Prediction', 'TCN_Error', 'Hybrid_Error', 'TCN_Abs_Error', 'Hybrid_Abs_Error']
+
+GENERATED FILES
+--------------------------------------------------------------------------------
+✅ stock_price_analysis.png
+✅ model_performance_metrics.png
+✅ predictions_visualization.png
+✅ RESULTS_SUMMARY.txt
+
+================================================================================
